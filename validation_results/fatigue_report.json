@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-06-24T11:36:26",
+  "profiles": {
+    "normal_workstation": {
+      "flows_per_hour": 120,
+      "total_flows_simulated": 960,
+      "total_alerts": 441,
+      "alerts_per_hour": 55.1,
+      "daily_alerts_estimate": 1323.0,
+      "workload_assessment": "EXCESSIVE",
+      "verdict_distribution": {
+        "SAFE": 519,
+        "SUSPICIOUS": 441,
+        "MALICIOUS": 0
+      }
+    },
+    "heavy_workstation": {
+      "flows_per_hour": 300,
+      "total_flows_simulated": 2000,
+      "total_alerts": 926,
+      "alerts_per_hour": 115.8,
+      "daily_alerts_estimate": 2778.0,
+      "workload_assessment": "EXCESSIVE",
+      "verdict_distribution": {
+        "SAFE": 1074,
+        "SUSPICIOUS": 926,
+        "MALICIOUS": 0
+      }
+    },
+    "developer_workstation": {
+      "flows_per_hour": 250,
+      "total_flows_simulated": 2000,
+      "total_alerts": 798,
+      "alerts_per_hour": 99.8,
+      "daily_alerts_estimate": 2394.0,
+      "workload_assessment": "EXCESSIVE",
+      "verdict_distribution": {
+        "SAFE": 1202,
+        "SUSPICIOUS": 778,
+        "MALICIOUS": 20
+      }
+    },
+    "streaming_workstation": {
+      "flows_per_hour": 200,
+      "total_flows_simulated": 1600,
+      "total_alerts": 278,
+      "alerts_per_hour": 34.8,
+      "daily_alerts_estimate": 834.0,
+      "workload_assessment": "EXCESSIVE",
+      "verdict_distribution": {
+        "SAFE": 1322,
+        "SUSPICIOUS": 278,
+        "MALICIOUS": 0
+      }
+    }
+  },
+  "daily_workload": {
+    "avg_daily_alerts": 1832.0,
+    "minutes_per_alert_estimate": 5,
+    "analyst_hours_per_day": 152.7,
+    "analysts_needed": 20
+  }
+}

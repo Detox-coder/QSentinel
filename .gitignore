@@ -1,0 +1,118 @@
+# ══════════════════════════════════════════════════════════
+#  QSentinel — .gitignore
+# ══════════════════════════════════════════════════════════
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── Virtual Environments ─────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE and Editors ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs and Runtime Outputs ─────────────────────────────
+ids_logs/
+logs/
+*.log
+tmp/
+temp/
+
+# ── Network Captures ─────────────────────────────────────
+*.pcap
+*.pcapng
+*.cap
+
+# ── Generated Datasets (large, reproducible) ─────────────
+output/
+
+# ── Databases ─────────────────────────────────────────────
+ids_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Certificates (regenerated, contain private keys) ─────
+certs/
+certificates/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Dashboard (experimental, not core deliverable) ───────
+dashboard/
+
+# ── Adversarial Evaluation Results ────────────────────────
+adversarial_results/
+
+# ── OS and System Files ──────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets and Environment ──────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem.bak
+
+# ── Jupyter Notebooks (if any) ───────────────────────────
+.ipynb_checkpoints/
+
+# ── Pytest / Coverage ────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# ── mypy / type checking ────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ══════════════════════════════════════════════════════════
+#  INTENTIONALLY TRACKED (do NOT add to gitignore):
+#
+#  - All *.py source files
+#  - README.md
+#  - requirements.txt
+#  - config.py
+#  - NIMS_IMA_sample_data.csv (small public dataset, ~221 KB)
+#  - models_v6/  (all files, ~3 MB total — required for inference)
+#  - models_v5/  (previous version, ~2.8 MB — optional)
+#  - validation_results/  (evaluation reports, small JSON files)
+#  - .gitignore
+# ══════════════════════════════════════════════════════════

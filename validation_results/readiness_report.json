@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-24T11:36:51",
+  "category_scores": {
+    "detection_quality": 60.3,
+    "false_positive_rate": 0,
+    "stability": 9.1,
+    "explainability": 99,
+    "operational_cost": 0,
+    "maintainability": 70,
+    "drift_resistance": 36.1,
+    "deployment_safety": 22.0
+  },
+  "weights": {
+    "detection_quality": 0.2,
+    "false_positive_rate": 0.2,
+    "stability": 0.15,
+    "explainability": 0.1,
+    "operational_cost": 0.1,
+    "maintainability": 0.1,
+    "drift_resistance": 0.1,
+    "deployment_safety": 0.05
+  },
+  "overall_readiness_score": 35.0,
+  "classification": "Research Prototype"
+}

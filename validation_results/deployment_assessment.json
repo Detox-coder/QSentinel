@@ -1,0 +1,219 @@
+{
+  "timestamp": "2026-06-16T11:00:09",
+  "title": "QSentinel QUIC IDS \u2014 Deployment Readiness Assessment",
+  "version": "v5/v6",
+  "q1_suspicious_causes": {
+    "question": "What still causes SUSPICIOUS verdicts on benign traffic?",
+    "total_false_positives": 233,
+    "fp_rate_pct": 25.89,
+    "by_detector": {
+      "blend_detection": 137,
+      "classifier_misclassification": 95,
+      "vae_anomaly": 1
+    },
+    "by_category": {
+      "youtube_720p": 6,
+      "youtube_live": 5,
+      "discord_chat": 47,
+      "discord_voice": 1,
+      "telegram": 34,
+      "github_clone": 50,
+      "github_pull": 49,
+      "cloud_sync": 1,
+      "multitab_browsing": 30,
+      "mixed_workstation": 10
+    },
+    "top_causes": [
+      "blend_detection: 137 false positives",
+      "classifier_misclassification: 95 false positives",
+      "vae_anomaly: 1 false positives"
+    ]
+  },
+  "q2_least_understood": {
+    "question": "What benign applications are least understood by the system?",
+    "least_understood_categories": [
+      {
+        "category": "github_clone",
+        "safe_pct": 0.0,
+        "suspicious_pct": 10.0,
+        "malicious_pct": 90.0,
+        "mean_confidence": 0.792
+      },
+      {
+        "category": "github_pull",
+        "safe_pct": 2.0,
+        "suspicious_pct": 10.0,
+        "malicious_pct": 88.0,
+        "mean_confidence": 0.8693
+      },
+      {
+        "category": "discord_chat",
+        "safe_pct": 6.0,
+        "suspicious_pct": 22.0,
+        "malicious_pct": 72.0,
+        "mean_confidence": 0.7533
+      },
+      {
+        "category": "telegram",
+        "safe_pct": 32.0,
+        "suspicious_pct": 40.0,
+        "malicious_pct": 28.0,
+        "mean_confidence": 0.5175
+      },
+      {
+        "category": "multitab_browsing",
+        "safe_pct": 40.0,
+        "suspicious_pct": 50.0,
+        "malicious_pct": 10.0,
+        "mean_confidence": 0.386
+      },
+      {
+        "category": "mixed_workstation",
+        "safe_pct": 80.0,
+        "suspicious_pct": 6.0,
+        "malicious_pct": 14.0,
+        "mean_confidence": 0.678
+      },
+      {
+        "category": "youtube_720p",
+        "safe_pct": 88.0,
+        "suspicious_pct": 6.0,
+        "malicious_pct": 6.0,
+        "mean_confidence": 0.8229
+      },
+      {
+        "category": "youtube_live",
+        "safe_pct": 90.0,
+        "suspicious_pct": 10.0,
+        "malicious_pct": 0.0,
+        "mean_confidence": 0.3496
+      }
+    ],
+    "well_understood_count": 10,
+    "total_categories": 18
+  },
+  "q3_hardest_attacks": {
+    "question": "What attacks are hardest to detect?",
+    "attacks_by_difficulty": [
+      {
+        "attack": "hybrid",
+        "detection_rate_pct": 11.0,
+        "malicious_rate_pct": 0.0,
+        "mean_confidence": 0.3786,
+        "mean_anomaly_vae": 7.8624
+      },
+      {
+        "attack": "exfil_burst",
+        "detection_rate_pct": 27.0,
+        "malicious_rate_pct": 7.0,
+        "mean_confidence": 0.8081,
+        "mean_anomaly_vae": 25.1182
+      },
+      {
+        "attack": "tunnel",
+        "detection_rate_pct": 28.0,
+        "malicious_rate_pct": 7.0,
+        "mean_confidence": 0.76,
+        "mean_anomaly_vae": 4.8421
+      },
+      {
+        "attack": "c2_beacon",
+        "detection_rate_pct": 60.0,
+        "malicious_rate_pct": 21.0,
+        "mean_confidence": 0.4707,
+        "mean_anomaly_vae": 5.4582
+      },
+      {
+        "attack": "slow_exfil",
+        "detection_rate_pct": 79.0,
+        "malicious_rate_pct": 19.0,
+        "mean_confidence": 0.4482,
+        "mean_anomaly_vae": 5.3183
+      },
+      {
+        "attack": "stealth_c2",
+        "detection_rate_pct": 91.0,
+        "malicious_rate_pct": 23.0,
+        "mean_confidence": 0.4821,
+        "mean_anomaly_vae": 4.3466
+      }
+    ],
+    "hardest_attack": "hybrid",
+    "easiest_attack": "stealth_c2"
+  },
+  "q4_fp_sources": {
+    "question": "What false positive sources remain?",
+    "total_fp": 233,
+    "detector_breakdown": {
+      "blend_detection": 137,
+      "classifier_misclassification": 95,
+      "vae_anomaly": 1
+    },
+    "category_breakdown": {
+      "youtube_720p": 6,
+      "youtube_live": 5,
+      "discord_chat": 47,
+      "discord_voice": 1,
+      "telegram": 34,
+      "github_clone": 50,
+      "github_pull": 49,
+      "cloud_sync": 1,
+      "multitab_browsing": 30,
+      "mixed_workstation": 10
+    },
+    "recommendations": [
+      "Retrain VAE with additional benign traffic patterns",
+      "Tune blend detection confidence range thresholds",
+      "Add misclassified benign patterns to training data"
+    ]
+  },
+  "q5_improvements_needed": {
+    "question": "What must be improved before production deployment?",
+    "overall_score": 32.5,
+    "classification": "Research Prototype",
+    "improvements_needed": [
+      {
+        "category": "false_positive_rate",
+        "score": 0,
+        "priority": "CRITICAL"
+      },
+      {
+        "category": "operational_cost",
+        "score": 0,
+        "priority": "CRITICAL"
+      },
+      {
+        "category": "deployment_safety",
+        "score": 0,
+        "priority": "CRITICAL"
+      },
+      {
+        "category": "stability",
+        "score": 9.1,
+        "priority": "CRITICAL"
+      },
+      {
+        "category": "drift_resistance",
+        "score": 33.8,
+        "priority": "CRITICAL"
+      },
+      {
+        "category": "detection_quality",
+        "score": 49.3,
+        "priority": "CRITICAL"
+      }
+    ],
+    "concrete_recommendations": [
+      "Improve detection rates for stealth and hybrid attacks",
+      "Reduce false positive rate through better benign modeling",
+      "Fix memory/CPU issues detected in stability testing",
+      "Reduce alert volume to decrease analyst fatigue",
+      "Improve detection consistency over long sessions"
+    ]
+  },
+  "overall_verdict": {
+    "score": 32.5,
+    "classification": "Research Prototype",
+    "summary": "QSentinel requires significant improvements before deployment"
+  }
+}

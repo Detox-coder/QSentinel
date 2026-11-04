@@ -1,0 +1,844 @@
+{
+  "timestamp": "2026-06-24T11:28:17",
+  "categories": {
+    "youtube_720p": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 50
+      },
+      "anomaly_scores_vae": {
+        "min": 15.7062,
+        "max": 47.4719,
+        "mean": 28.9667,
+        "median": 28.3567,
+        "p95": 44.3199,
+        "p99": 46.3497,
+        "std": 8.0187
+      },
+      "anomaly_scores_iforest": {
+        "min": 12.2287,
+        "max": 17.5422,
+        "mean": 16.0099,
+        "median": 16.0994,
+        "p95": 17.0638,
+        "p99": 17.3975,
+        "std": 0.8987
+      },
+      "risk_scores": {
+        "min": 0.2622,
+        "max": 0.3537,
+        "mean": 0.3145,
+        "median": 0.3164,
+        "p95": 0.3391,
+        "p99": 0.353,
+        "std": 0.0184
+      },
+      "confidence_scores": {
+        "min": 0.9138,
+        "max": 0.9834,
+        "mean": 0.9647,
+        "median": 0.9694,
+        "p95": 0.9816,
+        "p99": 0.9829,
+        "std": 0.0156
+      },
+      "safe_pct": 100.0,
+      "suspicious_pct": 0.0,
+      "malicious_pct": 0.0
+    },
+    "youtube_1080p": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 50
+      },
+      "anomaly_scores_vae": {
+        "min": 18.7195,
+        "max": 58.8185,
+        "mean": 31.3275,
+        "median": 30.1054,
+        "p95": 47.211,
+        "p99": 54.0663,
+        "std": 8.0711
+      },
+      "anomaly_scores_iforest": {
+        "min": 14.8726,
+        "max": 19.957,
+        "mean": 17.2758,
+        "median": 17.3713,
+        "p95": 18.5322,
+        "p99": 19.31,
+        "std": 0.9655
+      },
+      "risk_scores": {
+        "min": 0.2954,
+        "max": 0.4094,
+        "mean": 0.3532,
+        "median": 0.3508,
+        "p95": 0.3918,
+        "p99": 0.4057,
+        "std": 0.0221
+      },
+      "confidence_scores": {
+        "min": 0.8455,
+        "max": 0.9582,
+        "mean": 0.9221,
+        "median": 0.9276,
+        "p95": 0.9561,
+        "p99": 0.9577,
+        "std": 0.0274
+      },
+      "safe_pct": 100.0,
+      "suspicious_pct": 0.0,
+      "malicious_pct": 0.0
+    },
+    "youtube_4k": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 45,
+        "SUSPICIOUS": 5
+      },
+      "anomaly_scores_vae": {
+        "min": 18.9225,
+        "max": 54.0643,
+        "mean": 36.1645,
+        "median": 35.093,
+        "p95": 50.2026,
+        "p99": 53.0832,
+        "std": 8.9408
+      },
+      "anomaly_scores_iforest": {
+        "min": 15.5824,
+        "max": 18.8472,
+        "mean": 17.579,
+        "median": 17.8158,
+        "p95": 18.5415,
+        "p99": 18.7875,
+        "std": 0.8482
+      },
+      "risk_scores": {
+        "min": 0.3505,
+        "max": 0.6341,
+        "mean": 0.4287,
+        "median": 0.412,
+        "p95": 0.5346,
+        "p99": 0.602,
+        "std": 0.0598
+      },
+      "confidence_scores": {
+        "min": 0.5356,
+        "max": 0.9275,
+        "mean": 0.8152,
+        "median": 0.8407,
+        "p95": 0.9141,
+        "p99": 0.926,
+        "std": 0.0828
+      },
+      "safe_pct": 90.0,
+      "suspicious_pct": 10.0,
+      "malicious_pct": 0.0
+    },
+    "youtube_live": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 50
+      },
+      "anomaly_scores_vae": {
+        "min": 18.5862,
+        "max": 48.2837,
+        "mean": 30.449,
+        "median": 29.3451,
+        "p95": 43.853,
+        "p99": 47.1585,
+        "std": 7.2482
+      },
+      "anomaly_scores_iforest": {
+        "min": 11.1438,
+        "max": 16.1844,
+        "mean": 14.3307,
+        "median": 14.3154,
+        "p95": 15.7302,
+        "p99": 16.0193,
+        "std": 1.0235
+      },
+      "risk_scores": {
+        "min": 0.272,
+        "max": 0.3404,
+        "mean": 0.3044,
+        "median": 0.3036,
+        "p95": 0.3168,
+        "p99": 0.3348,
+        "std": 0.0095
+      },
+      "confidence_scores": {
+        "min": 0.9415,
+        "max": 0.9904,
+        "mean": 0.9831,
+        "median": 0.9853,
+        "p95": 0.9901,
+        "p99": 0.9904,
+        "std": 0.0086
+      },
+      "safe_pct": 100.0,
+      "suspicious_pct": 0.0,
+      "malicious_pct": 0.0
+    },
+    "discord_chat": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 18,
+        "MALICIOUS": 12,
+        "SUSPICIOUS": 20
+      },
+      "anomaly_scores_vae": {
+        "min": 3.7142,
+        "max": 24.6764,
+        "mean": 12.4481,
+        "median": 12.2127,
+        "p95": 20.791,
+        "p99": 23.4063,
+        "std": 4.9724
+      },
+      "anomaly_scores_iforest": {
+        "min": 8.1473,
+        "max": 12.5623,
+        "mean": 10.4645,
+        "median": 10.5423,
+        "p95": 12.0193,
+        "p99": 12.5035,
+        "std": 1.0121
+      },
+      "risk_scores": {
+        "min": 0.1655,
+        "max": 0.7137,
+        "mean": 0.48,
+        "median": 0.5075,
+        "p95": 0.6813,
+        "p99": 0.7101,
+        "std": 0.1592
+      },
+      "confidence_scores": {
+        "min": 0.1806,
+        "max": 0.929,
+        "mean": 0.5707,
+        "median": 0.6007,
+        "p95": 0.8551,
+        "p99": 0.9244,
+        "std": 0.2084
+      },
+      "safe_pct": 36.0,
+      "suspicious_pct": 40.0,
+      "malicious_pct": 24.0
+    },
+    "discord_voice": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SUSPICIOUS": 19,
+        "SAFE": 31
+      },
+      "anomaly_scores_vae": {
+        "min": 14.6512,
+        "max": 32.0171,
+        "mean": 18.9656,
+        "median": 17.9085,
+        "p95": 26.3399,
+        "p99": 30.3544,
+        "std": 3.8806
+      },
+      "anomaly_scores_iforest": {
+        "min": 10.3718,
+        "max": 14.5707,
+        "mean": 12.9129,
+        "median": 13.0875,
+        "p95": 14.4773,
+        "p99": 14.5664,
+        "std": 1.0668
+      },
+      "risk_scores": {
+        "min": 0.3289,
+        "max": 0.7429,
+        "mean": 0.5037,
+        "median": 0.4305,
+        "p95": 0.7399,
+        "p99": 0.7427,
+        "std": 0.1606
+      },
+      "confidence_scores": {
+        "min": 0.2831,
+        "max": 0.8643,
+        "mean": 0.6551,
+        "median": 0.7501,
+        "p95": 0.8586,
+        "p99": 0.8642,
+        "std": 0.2005
+      },
+      "safe_pct": 62.0,
+      "suspicious_pct": 38.0,
+      "malicious_pct": 0.0
+    },
+    "discord_screenshare": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 29,
+        "SUSPICIOUS": 21
+      },
+      "anomaly_scores_vae": {
+        "min": 9.3937,
+        "max": 34.4055,
+        "mean": 19.5103,
+        "median": 18.5744,
+        "p95": 28.521,
+        "p99": 32.4996,
+        "std": 5.1931
+      },
+      "anomaly_scores_iforest": {
+        "min": 11.8798,
+        "max": 15.8903,
+        "mean": 14.3186,
+        "median": 14.4956,
+        "p95": 15.2115,
+        "p99": 15.6033,
+        "std": 0.8033
+      },
+      "risk_scores": {
+        "min": 0.2957,
+        "max": 0.7115,
+        "mean": 0.5214,
+        "median": 0.5365,
+        "p95": 0.6902,
+        "p99": 0.7036,
+        "std": 0.1261
+      },
+      "confidence_scores": {
+        "min": 0.3005,
+        "max": 0.9722,
+        "mean": 0.6151,
+        "median": 0.5931,
+        "p95": 0.914,
+        "p99": 0.9674,
+        "std": 0.1994
+      },
+      "safe_pct": 58.0,
+      "suspicious_pct": 42.0,
+      "malicious_pct": 0.0
+    },
+    "telegram": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SUSPICIOUS": 27,
+        "SAFE": 23
+      },
+      "anomaly_scores_vae": {
+        "min": 5.6977,
+        "max": 39.7512,
+        "mean": 14.9362,
+        "median": 13.261,
+        "p95": 26.1366,
+        "p99": 37.0603,
+        "std": 7.1201
+      },
+      "anomaly_scores_iforest": {
+        "min": 10.4088,
+        "max": 16.6248,
+        "mean": 12.976,
+        "median": 13.1086,
+        "p95": 15.0808,
+        "p99": 16.3458,
+        "std": 1.2696
+      },
+      "risk_scores": {
+        "min": 0.3677,
+        "max": 0.8013,
+        "mean": 0.59,
+        "median": 0.6013,
+        "p95": 0.721,
+        "p99": 0.7876,
+        "std": 0.0961
+      },
+      "confidence_scores": {
+        "min": 0.1914,
+        "max": 0.7895,
+        "mean": 0.441,
+        "median": 0.4212,
+        "p95": 0.6743,
+        "p99": 0.7491,
+        "std": 0.1369
+      },
+      "safe_pct": 46.0,
+      "suspicious_pct": 54.0,
+      "malicious_pct": 0.0
+    },
+    "chrome_http3": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SUSPICIOUS": 47,
+        "SAFE": 3
+      },
+      "anomaly_scores_vae": {
+        "min": 10.8216,
+        "max": 28.8034,
+        "mean": 19.0373,
+        "median": 19.2279,
+        "p95": 26.5664,
+        "p99": 28.2321,
+        "std": 4.7393
+      },
+      "anomaly_scores_iforest": {
+        "min": 10.1978,
+        "max": 16.201,
+        "mean": 12.6761,
+        "median": 12.8035,
+        "p95": 14.2989,
+        "p99": 15.7225,
+        "std": 1.1466
+      },
+      "risk_scores": {
+        "min": 0.5281,
+        "max": 0.7848,
+        "mean": 0.6871,
+        "median": 0.7087,
+        "p95": 0.7584,
+        "p99": 0.7769,
+        "std": 0.0633
+      },
+      "confidence_scores": {
+        "min": 0.1917,
+        "max": 0.6053,
+        "mean": 0.3576,
+        "median": 0.3584,
+        "p95": 0.5486,
+        "p99": 0.6027,
+        "std": 0.1015
+      },
+      "safe_pct": 6.0,
+      "suspicious_pct": 94.0,
+      "malicious_pct": 0.0
+    },
+    "gdrive_upload": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SUSPICIOUS": 48,
+        "SAFE": 2
+      },
+      "anomaly_scores_vae": {
+        "min": 25.3829,
+        "max": 79.236,
+        "mean": 55.178,
+        "median": 59.2936,
+        "p95": 73.8388,
+        "p99": 79.0914,
+        "std": 14.8218
+      },
+      "anomaly_scores_iforest": {
+        "min": 18.2853,
+        "max": 24.3063,
+        "mean": 21.5685,
+        "median": 21.7398,
+        "p95": 23.2251,
+        "p99": 23.9509,
+        "std": 1.366
+      },
+      "risk_scores": {
+        "min": 0.4059,
+        "max": 0.6563,
+        "mean": 0.5983,
+        "median": 0.6138,
+        "p95": 0.6485,
+        "p99": 0.6527,
+        "std": 0.0522
+      },
+      "confidence_scores": {
+        "min": 0.4433,
+        "max": 0.8381,
+        "mean": 0.557,
+        "median": 0.5378,
+        "p95": 0.6892,
+        "p99": 0.7954,
+        "std": 0.0802
+      },
+      "safe_pct": 4.0,
+      "suspicious_pct": 96.0,
+      "malicious_pct": 0.0
+    },
+    "gdrive_download": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 50
+      },
+      "anomaly_scores_vae": {
+        "min": 23.6392,
+        "max": 50.48,
+        "mean": 38.9629,
+        "median": 38.4665,
+        "p95": 49.0531,
+        "p99": 50.3121,
+        "std": 5.8243
+      },
+      "anomaly_scores_iforest": {
+        "min": 12.8484,
+        "max": 17.1568,
+        "mean": 15.2013,
+        "median": 15.4035,
+        "p95": 16.6355,
+        "p99": 16.9379,
+        "std": 1.1672
+      },
+      "risk_scores": {
+        "min": 0.3309,
+        "max": 0.4432,
+        "mean": 0.3894,
+        "median": 0.391,
+        "p95": 0.4283,
+        "p99": 0.4415,
+        "std": 0.0299
+      },
+      "confidence_scores": {
+        "min": 0.7904,
+        "max": 0.9526,
+        "mean": 0.8713,
+        "median": 0.8711,
+        "p95": 0.9386,
+        "p99": 0.9518,
+        "std": 0.0434
+      },
+      "safe_pct": 100.0,
+      "suspicious_pct": 0.0,
+      "malicious_pct": 0.0
+    },
+    "github_clone": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SUSPICIOUS": 7,
+        "SAFE": 43
+      },
+      "anomaly_scores_vae": {
+        "min": 10.1812,
+        "max": 44.904,
+        "mean": 23.1333,
+        "median": 22.9137,
+        "p95": 34.4815,
+        "p99": 41.8067,
+        "std": 7.6784
+      },
+      "anomaly_scores_iforest": {
+        "min": 9.2379,
+        "max": 13.9342,
+        "mean": 11.7547,
+        "median": 11.9038,
+        "p95": 12.8504,
+        "p99": 13.6886,
+        "std": 0.911
+      },
+      "risk_scores": {
+        "min": 0.2567,
+        "max": 0.73,
+        "mean": 0.3994,
+        "median": 0.3551,
+        "p95": 0.6235,
+        "p99": 0.7151,
+        "std": 0.115
+      },
+      "confidence_scores": {
+        "min": 0.317,
+        "max": 0.9853,
+        "mean": 0.8192,
+        "median": 0.9088,
+        "p95": 0.9828,
+        "p99": 0.9851,
+        "std": 0.1997
+      },
+      "safe_pct": 86.0,
+      "suspicious_pct": 14.0,
+      "malicious_pct": 0.0
+    },
+    "github_pull": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 31,
+        "SUSPICIOUS": 16,
+        "MALICIOUS": 3
+      },
+      "anomaly_scores_vae": {
+        "min": 6.2673,
+        "max": 39.8847,
+        "mean": 20.6724,
+        "median": 20.2227,
+        "p95": 35.4256,
+        "p99": 38.2409,
+        "std": 7.7306
+      },
+      "anomaly_scores_iforest": {
+        "min": 9.5298,
+        "max": 14.1126,
+        "mean": 12.0464,
+        "median": 12.1497,
+        "p95": 13.4109,
+        "p99": 13.9341,
+        "std": 0.9468
+      },
+      "risk_scores": {
+        "min": 0.2438,
+        "max": 0.7376,
+        "mean": 0.465,
+        "median": 0.4547,
+        "p95": 0.7245,
+        "p99": 0.7359,
+        "std": 0.1498
+      },
+      "confidence_scores": {
+        "min": 0.3137,
+        "max": 0.9948,
+        "mean": 0.7002,
+        "median": 0.7208,
+        "p95": 0.9857,
+        "p99": 0.9919,
+        "std": 0.2234
+      },
+      "safe_pct": 62.0,
+      "suspicious_pct": 32.0,
+      "malicious_pct": 6.0
+    },
+    "github_push": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 47,
+        "SUSPICIOUS": 3
+      },
+      "anomaly_scores_vae": {
+        "min": 11.6216,
+        "max": 41.4833,
+        "mean": 22.9792,
+        "median": 22.9957,
+        "p95": 32.3318,
+        "p99": 40.9094,
+        "std": 6.7183
+      },
+      "anomaly_scores_iforest": {
+        "min": 13.4515,
+        "max": 18.2407,
+        "mean": 15.6058,
+        "median": 15.3662,
+        "p95": 17.9785,
+        "p99": 18.1566,
+        "std": 1.1362
+      },
+      "risk_scores": {
+        "min": 0.2198,
+        "max": 0.7408,
+        "mean": 0.3365,
+        "median": 0.313,
+        "p95": 0.492,
+        "p99": 0.7152,
+        "std": 0.0932
+      },
+      "confidence_scores": {
+        "min": 0.2579,
+        "max": 0.9884,
+        "mean": 0.9089,
+        "median": 0.9581,
+        "p95": 0.9832,
+        "p99": 0.9881,
+        "std": 0.1286
+      },
+      "safe_pct": 94.0,
+      "suspicious_pct": 6.0,
+      "malicious_pct": 0.0
+    },
+    "cloud_sync": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SUSPICIOUS": 46,
+        "MALICIOUS": 4
+      },
+      "anomaly_scores_vae": {
+        "min": 6.0061,
+        "max": 30.4411,
+        "mean": 15.6737,
+        "median": 14.6638,
+        "p95": 24.5512,
+        "p99": 27.7936,
+        "std": 4.9081
+      },
+      "anomaly_scores_iforest": {
+        "min": 10.4959,
+        "max": 14.8562,
+        "mean": 12.8692,
+        "median": 12.9473,
+        "p95": 14.3207,
+        "p99": 14.6005,
+        "std": 1.0113
+      },
+      "risk_scores": {
+        "min": 0.5041,
+        "max": 0.7148,
+        "mean": 0.6115,
+        "median": 0.6109,
+        "p95": 0.6724,
+        "p99": 0.7079,
+        "std": 0.0378
+      },
+      "confidence_scores": {
+        "min": 0.1797,
+        "max": 0.6603,
+        "mean": 0.3908,
+        "median": 0.3488,
+        "p95": 0.6059,
+        "p99": 0.6434,
+        "std": 0.1377
+      },
+      "safe_pct": 0.0,
+      "suspicious_pct": 92.0,
+      "malicious_pct": 8.0
+    },
+    "software_update": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 41,
+        "SUSPICIOUS": 9
+      },
+      "anomaly_scores_vae": {
+        "min": 26.9558,
+        "max": 87.3696,
+        "mean": 48.4048,
+        "median": 46.1623,
+        "p95": 65.9594,
+        "p99": 83.0932,
+        "std": 10.8312
+      },
+      "anomaly_scores_iforest": {
+        "min": 16.874,
+        "max": 20.0305,
+        "mean": 18.8094,
+        "median": 18.9276,
+        "p95": 19.7106,
+        "p99": 19.9871,
+        "std": 0.7328
+      },
+      "risk_scores": {
+        "min": 0.3159,
+        "max": 0.6989,
+        "mean": 0.4046,
+        "median": 0.352,
+        "p95": 0.6714,
+        "p99": 0.693,
+        "std": 0.1133
+      },
+      "confidence_scores": {
+        "min": 0.3679,
+        "max": 0.9719,
+        "mean": 0.8496,
+        "median": 0.9269,
+        "p95": 0.9669,
+        "p99": 0.9714,
+        "std": 0.1649
+      },
+      "safe_pct": 82.0,
+      "suspicious_pct": 18.0,
+      "malicious_pct": 0.0
+    },
+    "multitab_browsing": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "MALICIOUS": 15,
+        "SUSPICIOUS": 34,
+        "SAFE": 1
+      },
+      "anomaly_scores_vae": {
+        "min": 7.6962,
+        "max": 31.5444,
+        "mean": 16.097,
+        "median": 15.4053,
+        "p95": 23.2382,
+        "p99": 28.691,
+        "std": 4.7053
+      },
+      "anomaly_scores_iforest": {
+        "min": 10.9943,
+        "max": 16.9319,
+        "mean": 14.3688,
+        "median": 14.5118,
+        "p95": 16.1093,
+        "p99": 16.6826,
+        "std": 1.1829
+      },
+      "risk_scores": {
+        "min": 0.2624,
+        "max": 0.7034,
+        "mean": 0.5618,
+        "median": 0.5955,
+        "p95": 0.6709,
+        "p99": 0.6887,
+        "std": 0.1033
+      },
+      "confidence_scores": {
+        "min": 0.3154,
+        "max": 0.8113,
+        "mean": 0.5316,
+        "median": 0.5331,
+        "p95": 0.7422,
+        "p99": 0.793,
+        "std": 0.1267
+      },
+      "safe_pct": 2.0,
+      "suspicious_pct": 68.0,
+      "malicious_pct": 30.0
+    },
+    "mixed_workstation": {
+      "flow_count": 50,
+      "verdict_distribution": {
+        "SAFE": 33,
+        "SUSPICIOUS": 16,
+        "MALICIOUS": 1
+      },
+      "anomaly_scores_vae": {
+        "min": 3.9988,
+        "max": 45.7654,
+        "mean": 23.4284,
+        "median": 20.9884,
+        "p95": 40.6844,
+        "p99": 44.2316,
+        "std": 10.7869
+      },
+      "anomaly_scores_iforest": {
+        "min": 8.846,
+        "max": 16.9994,
+        "mean": 13.789,
+        "median": 13.9778,
+        "p95": 16.5818,
+        "p99": 16.903,
+        "std": 2.1265
+      },
+      "risk_scores": {
+        "min": 0.0981,
+        "max": 0.7707,
+        "mean": 0.4684,
+        "median": 0.3943,
+        "p95": 0.7507,
+        "p99": 0.7641,
+        "std": 0.1802
+      },
+      "confidence_scores": {
+        "min": 0.1761,
+        "max": 0.984,
+        "mean": 0.6812,
+        "median": 0.8444,
+        "p95": 0.9795,
+        "p99": 0.9829,
+        "std": 0.2868
+      },
+      "safe_pct": 66.0,
+      "suspicious_pct": 32.0,
+      "malicious_pct": 2.0
+    }
+  },
+  "overall": {
+    "total_flows": 900,
+    "verdict_distribution": {
+      "SAFE": 547,
+      "SUSPICIOUS": 318,
+      "MALICIOUS": 35
+    },
+    "safe_pct": 60.8,
+    "suspicious_pct": 35.3,
+    "malicious_pct": 3.9
+  }
+}

@@ -1,0 +1,1 @@
+echo "Framework generator ready"

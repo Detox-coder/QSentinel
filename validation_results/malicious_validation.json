@@ -1,0 +1,284 @@
+{
+  "timestamp": "2026-06-24T11:28:19",
+  "attack_types": {
+    "c2_beacon": {
+      "flow_count": 100,
+      "verdict_distribution": {
+        "SUSPICIOUS": 39,
+        "SAFE": 40,
+        "MALICIOUS": 21
+      },
+      "detection_rate_pct": 60.0,
+      "malicious_rate_pct": 21.0,
+      "confidence": {
+        "min": 0.2008,
+        "max": 0.8963,
+        "mean": 0.4959,
+        "median": 0.4885,
+        "p95": 0.7855,
+        "p99": 0.8749,
+        "std": 0.18
+      },
+      "anomaly_scores_vae": {
+        "min": 5.2362,
+        "max": 27.4108,
+        "mean": 13.2411,
+        "median": 12.0549,
+        "p95": 21.3813,
+        "p99": 22.3529,
+        "std": 4.8343
+      },
+      "anomaly_scores_iforest": {
+        "min": 12.3449,
+        "max": 17.9413,
+        "mean": 15.4749,
+        "median": 15.4721,
+        "p95": 17.205,
+        "p99": 17.7594,
+        "std": 1.2002
+      },
+      "risk_scores": {
+        "min": 0.2638,
+        "max": 0.6919,
+        "mean": 0.5381,
+        "median": 0.5707,
+        "p95": 0.6792,
+        "p99": 0.6911,
+        "std": 0.1093
+      },
+      "response_latency_ms": 0.22
+    },
+    "exfil_burst": {
+      "flow_count": 100,
+      "verdict_distribution": {
+        "SUSPICIOUS": 82,
+        "SAFE": 18
+      },
+      "detection_rate_pct": 82.0,
+      "malicious_rate_pct": 0.0,
+      "confidence": {
+        "min": 0.178,
+        "max": 0.9341,
+        "mean": 0.5016,
+        "median": 0.4908,
+        "p95": 0.7999,
+        "p99": 0.8629,
+        "std": 0.1793
+      },
+      "anomaly_scores_vae": {
+        "min": 14.5827,
+        "max": 91.2023,
+        "mean": 39.5474,
+        "median": 33.724,
+        "p95": 77.4321,
+        "p99": 84.8396,
+        "std": 18.3489
+      },
+      "anomaly_scores_iforest": {
+        "min": 16.1993,
+        "max": 23.3899,
+        "mean": 20.2783,
+        "median": 20.4977,
+        "p95": 22.8431,
+        "p99": 23.3249,
+        "std": 1.7213
+      },
+      "risk_scores": {
+        "min": 0.3149,
+        "max": 0.794,
+        "mean": 0.6328,
+        "median": 0.6524,
+        "p95": 0.7539,
+        "p99": 0.7877,
+        "std": 0.1087
+      },
+      "response_latency_ms": 0.22
+    },
+    "slow_exfil": {
+      "flow_count": 100,
+      "verdict_distribution": {
+        "SAFE": 54,
+        "SUSPICIOUS": 42,
+        "MALICIOUS": 4
+      },
+      "detection_rate_pct": 46.0,
+      "malicious_rate_pct": 4.0,
+      "confidence": {
+        "min": 0.2476,
+        "max": 0.9927,
+        "mean": 0.5787,
+        "median": 0.5521,
+        "p95": 0.9286,
+        "p99": 0.977,
+        "std": 0.1859
+      },
+      "anomaly_scores_vae": {
+        "min": 4.0645,
+        "max": 84.8226,
+        "mean": 15.764,
+        "median": 14.9505,
+        "p95": 25.5019,
+        "p99": 28.7854,
+        "std": 8.5824
+      },
+      "anomaly_scores_iforest": {
+        "min": 11.8388,
+        "max": 20.8213,
+        "mean": 14.9305,
+        "median": 14.874,
+        "p95": 17.0663,
+        "p99": 17.8272,
+        "std": 1.3868
+      },
+      "risk_scores": {
+        "min": 0.1889,
+        "max": 0.7148,
+        "mean": 0.5035,
+        "median": 0.5251,
+        "p95": 0.671,
+        "p99": 0.6776,
+        "std": 0.1256
+      },
+      "response_latency_ms": 0.22
+    },
+    "tunnel": {
+      "flow_count": 100,
+      "verdict_distribution": {
+        "SUSPICIOUS": 83,
+        "MALICIOUS": 9,
+        "SAFE": 8
+      },
+      "detection_rate_pct": 92.0,
+      "malicious_rate_pct": 9.0,
+      "confidence": {
+        "min": 0.1663,
+        "max": 0.9269,
+        "mean": 0.3831,
+        "median": 0.3424,
+        "p95": 0.7045,
+        "p99": 0.9211,
+        "std": 0.1588
+      },
+      "anomaly_scores_vae": {
+        "min": 6.2957,
+        "max": 33.1519,
+        "mean": 16.451,
+        "median": 15.8419,
+        "p95": 23.7473,
+        "p99": 27.4589,
+        "std": 4.6738
+      },
+      "anomaly_scores_iforest": {
+        "min": 11.3459,
+        "max": 17.7668,
+        "mean": 13.7115,
+        "median": 13.7683,
+        "p95": 15.0534,
+        "p99": 15.5313,
+        "std": 0.9765
+      },
+      "risk_scores": {
+        "min": 0.1863,
+        "max": 0.7158,
+        "mean": 0.6229,
+        "median": 0.6431,
+        "p95": 0.7124,
+        "p99": 0.7146,
+        "std": 0.0877
+      },
+      "response_latency_ms": 0.22
+    },
+    "hybrid": {
+      "flow_count": 100,
+      "verdict_distribution": {
+        "SAFE": 100
+      },
+      "detection_rate_pct": 0.0,
+      "malicious_rate_pct": 0.0,
+      "confidence": {
+        "min": 0.9798,
+        "max": 0.9971,
+        "mean": 0.9925,
+        "median": 0.9931,
+        "p95": 0.9954,
+        "p99": 0.9962,
+        "std": 0.0025
+      },
+      "anomaly_scores_vae": {
+        "min": 17.0567,
+        "max": 60.1977,
+        "mean": 30.4213,
+        "median": 28.7222,
+        "p95": 45.4835,
+        "p99": 58.9015,
+        "std": 8.767
+      },
+      "anomaly_scores_iforest": {
+        "min": 17.8805,
+        "max": 26.0228,
+        "mean": 22.2317,
+        "median": 22.7279,
+        "p95": 24.6632,
+        "p99": 25.0628,
+        "std": 1.6449
+      },
+      "risk_scores": {
+        "min": 0.2414,
+        "max": 0.3086,
+        "mean": 0.2944,
+        "median": 0.2968,
+        "p95": 0.3006,
+        "p99": 0.3041,
+        "std": 0.0104
+      },
+      "response_latency_ms": 0.24
+    },
+    "stealth_c2": {
+      "flow_count": 100,
+      "verdict_distribution": {
+        "SUSPICIOUS": 57,
+        "MALICIOUS": 25,
+        "SAFE": 18
+      },
+      "detection_rate_pct": 82.0,
+      "malicious_rate_pct": 25.0,
+      "confidence": {
+        "min": 0.1705,
+        "max": 0.944,
+        "mean": 0.4699,
+        "median": 0.4297,
+        "p95": 0.8884,
+        "p99": 0.9064,
+        "std": 0.2019
+      },
+      "anomaly_scores_vae": {
+        "min": 4.6607,
+        "max": 22.3399,
+        "mean": 10.7648,
+        "median": 9.1754,
+        "p95": 19.7742,
+        "p99": 22.1122,
+        "std": 4.6831
+      },
+      "anomaly_scores_iforest": {
+        "min": 12.1588,
+        "max": 16.8834,
+        "mean": 14.3007,
+        "median": 14.4051,
+        "p95": 15.7881,
+        "p99": 16.4896,
+        "std": 0.9339
+      },
+      "risk_scores": {
+        "min": 0.2412,
+        "max": 0.7731,
+        "mean": 0.5124,
+        "median": 0.5286,
+        "p95": 0.6818,
+        "p99": 0.7451,
+        "std": 0.1162
+      },
+      "response_latency_ms": 0.21
+    }
+  }
+}

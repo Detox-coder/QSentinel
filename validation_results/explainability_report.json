@@ -1,0 +1,4031 @@
+{
+  "timestamp": "2026-06-24T11:36:20",
+  "detectors": {
+    "classifier": {
+      "benign_samples": [
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.7869837284088135,
+              "value": 2.8027496337890625,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.6449576020240784,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.34790876507759094,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.322796106338501,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.27670982480049133,
+              "value": 0.9038788676261902,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.7190511226654053,
+              "value": 2.2178056240081787,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.405672550201416,
+              "value": 2.5282700061798096,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.364437460899353,
+              "value": 0.8715905547142029,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.3093286156654358,
+              "value": 0.39325737953186035,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.3014945983886719,
+              "value": 0.8654456734657288,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.2722830772399902,
+              "value": 2.3013689517974854,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.6942495703697205,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.6643768548965454,
+              "value": 0.8335558176040649,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4201478660106659,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.2236383557319641,
+              "value": 0.8632798194885254,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_interactive_tunnel",
+          "top_features": [
+            {
+              "feature": "size_modality",
+              "importance": 2.3537750244140625,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 1.902997612953186,
+              "value": -0.795154333114624,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 1.8674105405807495,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 1.4891557693481445,
+              "value": 0.8264270424842834,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 1.3788514137268066,
+              "value": 0.680137574672699,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_cicd",
+          "top_features": [
+            {
+              "feature": "all_size_min",
+              "importance": 5.465415954589844,
+              "value": 2.378697156906128,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 1.8518054485321045,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 1.2608247995376587,
+              "value": -0.8286345601081848,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.8054494857788086,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.7519927620887756,
+              "value": 1.1330387592315674,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.5490987300872803,
+              "value": 2.528003215789795,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.5146017670631409,
+              "value": 0.9760156869888306,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.3806896209716797,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.30231547355651855,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.24384339153766632,
+              "value": 0.795928418636322,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 4.051082611083984,
+              "value": 3.389343500137329,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 1.3722909688949585,
+              "value": 0.9102649688720703,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 1.1014002561569214,
+              "value": 0.8280999660491943,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.0226166248321533,
+              "value": 1.2880644798278809,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.8608081936836243,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_cicd",
+          "top_features": [
+            {
+              "feature": "all_size_min",
+              "importance": 3.5271804332733154,
+              "value": 1.6992733478546143,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 1.1685047149658203,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 1.0745798349380493,
+              "value": -0.8106207251548767,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.8853349089622498,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.6829698085784912,
+              "value": 0.842501699924469,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.890474557876587,
+              "value": 3.013979196548462,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.48399341106414795,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.36671605706214905,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.3518233597278595,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.16930034756660461,
+              "value": 1.8227336406707764,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.4039974212646484,
+              "value": 2.3932888507843018,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.5084462761878967,
+              "value": 0.7349298000335693,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.49608319997787476,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4291364550590515,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.182303324341774,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.2995822429656982,
+              "value": 2.3530049324035645,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4455299377441406,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.4370761811733246,
+              "value": 0.8737054467201233,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.24599045515060425,
+              "value": 0.19519999623298645,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.24232685565948486,
+              "value": 0.8750846982002258,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.4266020059585571,
+              "value": 2.0813186168670654,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5763686299324036,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.5030775666236877,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.20862331986427307,
+              "value": 0.19679999351501465,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.19321314990520477,
+              "value": -0.8187698125839233,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.145759105682373,
+              "value": 3.142394542694092,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5493677258491516,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.378307044506073,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.24893057346343994,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.21306368708610535,
+              "value": 1.4262030124664307,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 3.4684529304504395,
+              "value": 3.4297168254852295,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 2.00276780128479,
+              "value": 2.5282700061798096,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 1.113001823425293,
+              "value": 0.9321818947792053,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.9694105386734009,
+              "value": 0.8695049285888672,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.718412458896637,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.3945822715759277,
+              "value": 3.0594751834869385,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4056135416030884,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.3935202360153198,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2578800916671753,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.20014986395835876,
+              "value": 0.19280000030994415,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.008986711502075,
+              "value": 2.579094648361206,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.47939056158065796,
+              "value": 2.585331678390503,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.391019344329834,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.3545967936515808,
+              "value": -0.8594879508018494,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.31927117705345154,
+              "value": 1.6992733478546143,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.700632333755493,
+              "value": 2.702693462371826,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5453420281410217,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.49931490421295166,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.324258953332901,
+              "value": -0.8662997484207153,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.2891063094139099,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.776568055152893,
+              "value": 2.013075113296509,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.45538604259490967,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.4205479621887207,
+              "value": -0.813837468624115,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.38171812891960144,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.269707590341568,
+              "value": 2.5282700061798096,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.0648438930511475,
+              "value": 2.1678714752197266,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.4689454734325409,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.3204791247844696,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.23187164962291718,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.20243586599826813,
+              "value": 1.0965585708618164,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.724407196044922,
+              "value": 2.8316171169281006,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.9670474529266357,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 1.0007593631744385,
+              "value": 2.51741099357605,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.9146318435668945,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.7979201078414917,
+              "value": 0.7568466663360596,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.876862049102783,
+              "value": 2.354292631149292,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.38152632117271423,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.3711307644844055,
+              "value": 0.5930237770080566,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.3152094781398773,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.20098505914211273,
+              "value": 1.7531415224075317,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.8563158512115479,
+              "value": 2.05617618560791,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.484967976808548,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2397252470254898,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.20243914425373077,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.17986895143985748,
+              "value": 1.195184588432312,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.283989667892456,
+              "value": 2.306818723678589,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5725513696670532,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.5723960995674133,
+              "value": 0.8773896098136902,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.37717530131340027,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.22804775834083557,
+              "value": 0.8723604679107666,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.6048152446746826,
+              "value": 2.364041566848755,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4147915542125702,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.35670924186706543,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.28295770287513733,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.27265870571136475,
+              "value": 0.19840000569820404,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.5340728759765625,
+              "value": 2.6736817359924316,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.5539840459823608,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.8802132606506348,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.7690275311470032,
+              "value": 0.7349298000335693,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.6000168919563293,
+              "value": 0.8232287764549255,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.8776493072509766,
+              "value": 2.661435127258301,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.243252158164978,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.0771081447601318,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.6988235116004944,
+              "value": 0.6691790819168091,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.5776239633560181,
+              "value": 0.8575747013092041,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.0855495929718018,
+              "value": 2.660465955734253,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.4114252030849457,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.3149818480014801,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.29116111993789673,
+              "value": 0.9650571942329407,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.26450005173683167,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.73320472240448,
+              "value": 2.130064010620117,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5470936298370361,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.36650872230529785,
+              "value": 0.8273985385894775,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.29048389196395874,
+              "value": 0.8560358881950378,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.2586595416069031,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.2708959579467773,
+              "value": 2.5810368061065674,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.37761929631233215,
+              "value": 1.019849419593811,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.3124297261238098,
+              "value": 0.8500338196754456,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.2984086573123932,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.2582833170890808,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.7511725425720215,
+              "value": 3.3618874549865723,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.6680259704589844,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.5500352382659912,
+              "value": 3.380577325820923,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.27209556102752686,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2524770498275757,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.8844002485275269,
+              "value": 2.124746561050415,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5742873549461365,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.41106998920440674,
+              "value": 0.8557032942771912,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.333187997341156,
+              "value": 0.8109657764434814,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.256053626537323,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.3233509063720703,
+              "value": 2.702693462371826,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.4856069087982178,
+              "value": 1.8756799697875977,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.4692814350128174,
+              "value": 0.7678051590919495,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4492506980895996,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.31188806891441345,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.5104811191558838,
+              "value": 2.1306862831115723,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.6007324457168579,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.38828447461128235,
+              "value": -0.823085606098175,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.28340867161750793,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2387867569923401,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.008513927459717,
+              "value": 2.4333112239837646,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4717644453048706,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.4556936025619507,
+              "value": 2.373244285583496,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.40572187304496765,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.24062229692935944,
+              "value": 0.45691993832588196,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.4025189876556396,
+              "value": 3.1875813007354736,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.8450291752815247,
+              "value": 2.5282700061798096,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.35840898752212524,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.35089507699012756,
+              "value": -0.8901347517967224,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.3241850733757019,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "malicious_interactive_tunnel",
+          "top_features": [
+            {
+              "feature": "all_size_min",
+              "importance": 1.6262696981430054,
+              "value": 0.9650571942329407,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 1.5519232749938965,
+              "value": -0.7920771241188049,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 1.4997925758361816,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 1.0097159147262573,
+              "value": 0.8829696774482727,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.8503859043121338,
+              "value": 0.8232287764549255,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.6499184370040894,
+              "value": 2.093726634979248,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4361118674278259,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.34190258383750916,
+              "value": 0.793888509273529,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.21709075570106506,
+              "value": 0.19840000569820404,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.20557300746440887,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.070856809616089,
+              "value": 2.7501046657562256,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5003976821899414,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4169154167175293,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2960039973258972,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.24706587195396423,
+              "value": 0.3167285919189453,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.2392245531082153,
+              "value": 1.690469741821289,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.0675508975982666,
+              "value": 2.5282700061798096,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.45472484827041626,
+              "value": 0.8993065357208252,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4065069854259491,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.30367740988731384,
+              "value": 0.8900848031044006,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.41398286819458,
+              "value": 1.885810375213623,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.9146811366081238,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "silence_ratio",
+              "importance": 0.3116825819015503,
+              "value": 0.8043468594551086,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.2957189083099365,
+              "value": 0.9321818947792053,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.21890680491924286,
+              "value": 0.8312446475028992,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.2920022010803223,
+              "value": 2.913889169692993,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.3891708552837372,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.29414382576942444,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.264239639043808,
+              "value": -0.8764403462409973,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.23591651022434235,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.0166707038879395,
+              "value": 2.8801686763763428,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.3304596245288849,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.3194867670536041,
+              "value": 0.7458882331848145,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.2957501709461212,
+              "value": 2.5282700061798096,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.261861115694046,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.511585235595703,
+              "value": 2.3676085472106934,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.5431260466575623,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.40669187903404236,
+              "value": 0.875309407711029,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.36803773045539856,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.2629733681678772,
+              "value": 0.19840000569820404,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_cicd",
+          "top_features": [
+            {
+              "feature": "all_size_min",
+              "importance": 3.106248140335083,
+              "value": 1.8417332172393799,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 2.071491241455078,
+              "value": 3.3811166286468506,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.027408242225647,
+              "value": 1.1330387592315674,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.5807355046272278,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.5714238882064819,
+              "value": 0.7286827564239502,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_cicd",
+          "top_features": [
+            {
+              "feature": "all_size_min",
+              "importance": 3.9543583393096924,
+              "value": 1.984192967414856,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.232642412185669,
+              "value": 1.4430903196334839,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.9892669916152954,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_fwd",
+              "importance": 0.7822886109352112,
+              "value": -0.835317075252533,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.7464882135391235,
+              "value": 2.2178056240081787,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.0545973777770996,
+              "value": 2.6060874462127686,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4757867753505707,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.3568590581417084,
+              "value": 2.683295726776123,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.32317647337913513,
+              "value": 0.680137574672699,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.26989856362342834,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.048668622970581,
+              "value": 2.1128156185150146,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.4678315818309784,
+              "value": 0.8773896098136902,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.39044326543807983,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.3070705831050873,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2702988386154175,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 3.7359848022460938,
+              "value": 3.083972692489624,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.8539548516273499,
+              "value": 2.0631930828094482,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.3366827964782715,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.2866094410419464,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.2696968913078308,
+              "value": 0.5574423670768738,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.7719595432281494,
+              "value": 2.5520594120025635,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.47064802050590515,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.43470385670661926,
+              "value": 0.7239713668823242,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.25140005350112915,
+              "value": 2.683295726776123,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_bwd_bwd",
+              "importance": 0.20684799551963806,
+              "value": 0.8879407644271851,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "benign"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.6957814693450928,
+              "value": 2.539524793624878,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.25192806124687195,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_min",
+              "importance": 0.24136559665203094,
+              "value": 1.2171015739440918,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.22556304931640625,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.1804058700799942,
+              "value": 1.458950161933899,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "benign"
+        }
+      ],
+      "malicious_samples": [
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.246332883834839,
+              "value": 1.9179779291152954,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.5346242189407349,
+              "value": -0.6129145622253418,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.4284168481826782,
+              "value": 1.5981158018112183,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.064440131187439,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_bwd",
+              "importance": 0.7215372323989868,
+              "value": -0.4079003632068634,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.01753830909729,
+              "value": 0.44205206632614136,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.9458027482032776,
+              "value": 0.6295999884605408,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.6735700964927673,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.47888192534446716,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.47697970271110535,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "size_modality",
+              "importance": 1.1477246284484863,
+              "value": 1.9081673622131348,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.43380844593048096,
+              "value": 0.4444466829299927,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.4113282859325409,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.3856344223022461,
+              "value": 0.6287999749183655,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 0.34772029519081116,
+              "value": -0.6285653710365295,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.4306817054748535,
+              "value": 0.6783533096313477,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_iat_std",
+              "importance": 0.6368300318717957,
+              "value": 0.45956793427467346,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.5853678584098816,
+              "value": 0.9470652341842651,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.5792030096054077,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.5465126633644104,
+              "value": 0.3880000114440918,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "size_modality",
+              "importance": 1.5222047567367554,
+              "value": 1.1330387592315674,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.2997679710388184,
+              "value": 0.6087999939918518,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 1.0859873294830322,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.0276496410369873,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.9905027747154236,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_size_max",
+              "importance": 1.0454505681991577,
+              "value": 0.5799999833106995,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.9750566482543945,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.8713623881340027,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.735525906085968,
+              "value": 1.642799735069275,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.7325804829597473,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "size_modality",
+              "importance": 1.0853811502456665,
+              "value": 2.2182188034057617,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "direction_proxy",
+              "importance": 0.47242802381515503,
+              "value": 0.41042616963386536,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.4691540002822876,
+              "value": 1.1547824144363403,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.45812493562698364,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.3061772584915161,
+              "value": 0.4854118227958679,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_interactive_tunnel",
+          "top_features": [
+            {
+              "feature": "upload_ratio",
+              "importance": 1.4308733940124512,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.8220154643058777,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.7704066634178162,
+              "value": 0.2863999903202057,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 0.611640989780426,
+              "value": 0.3596317768096924,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.5242679715156555,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 0.9755095839500427,
+              "value": 1.2916444540023804,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_iat_max",
+              "importance": 0.9556465148925781,
+              "value": 0.6392666697502136,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "burst_acceleration",
+              "importance": 0.5404088497161865,
+              "value": 0.5592935681343079,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.48746952414512634,
+              "value": 0.4415999948978424,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.42156678438186646,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.362952709197998,
+              "value": 1.7442753314971924,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 2.155681848526001,
+              "value": 1.7531415224075317,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.716259241104126,
+              "value": -0.6315262913703918,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.4569910764694214,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_bwd",
+              "importance": 0.7860628962516785,
+              "value": -0.4167403280735016,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 0.8690088391304016,
+              "value": 0.5211398005485535,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.8206095099449158,
+              "value": 0.5759999752044678,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "duration",
+              "importance": 0.5003770589828491,
+              "value": 0.7717565298080444,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 0.4402689039707184,
+              "value": -0.6069926619529724,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.3929535746574402,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "all_size_max",
+              "importance": 1.164916753768921,
+              "value": 0.5784000158309937,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.7660460472106934,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.7129182815551758,
+              "value": 0.4115450382232666,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.492255300283432,
+              "value": -0.5074617862701416,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "markov_fwd_bwd",
+              "importance": 0.45028913021087646,
+              "value": -0.3535740077495575,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.442610263824463,
+              "value": 2.0981075763702393,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.6439965963363647,
+              "value": 2.0631930828094482,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.269907832145691,
+              "value": -0.6105880737304688,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.0443309545516968,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_bwd",
+              "importance": 0.6924331784248352,
+              "value": -0.4591755270957947,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.1215646266937256,
+              "value": 1.1561802625656128,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.8078770637512207,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.360183835029602,
+              "value": -0.5522149205207825,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.0967984199523926,
+              "value": 2.2182188034057617,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 0.7967737913131714,
+              "value": 0.44260498881340027,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "size_modality",
+              "importance": 0.4488873779773712,
+              "value": 0.9780130386352539,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.3413558304309845,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_mean",
+              "importance": 0.23202018439769745,
+              "value": -0.31562498211860657,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.19591350853443146,
+              "value": 1.2406831979751587,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.1897667497396469,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.4664223194122314,
+              "value": 0.5387283563613892,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.8086077570915222,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.7896877527236938,
+              "value": 0.459199994802475,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.7769410610198975,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_iat_std",
+              "importance": 0.5601535439491272,
+              "value": 0.33048948645591736,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "size_modality",
+              "importance": 2.017183542251587,
+              "value": 2.2182188034057617,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.7054435014724731,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 0.9632535576820374,
+              "value": -0.5562334060668945,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.9138909578323364,
+              "value": 0.7554023265838623,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.6803829669952393,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.6892517805099487,
+              "value": 0.6046426892280579,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 1.4938819408416748,
+              "value": 3.017914056777954,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.8736297488212585,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_iat_std",
+              "importance": 0.8057840466499329,
+              "value": 0.5064445734024048,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.6969028115272522,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.8979845643043518,
+              "value": 0.7963284850120544,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.707808256149292,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.5531852841377258,
+              "value": 1.6036145687103271,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.33428964018821716,
+              "value": 0.5767999887466431,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_kurtosis",
+              "importance": 0.2581239938735962,
+              "value": 0.42312508821487427,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "req_resp_cadence",
+              "importance": 1.0305815935134888,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.6889445781707764,
+              "value": 0.5095999836921692,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.5688204765319824,
+              "value": 0.5732806324958801,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "burst_acceleration",
+              "importance": 0.566809356212616,
+              "value": 0.6488512754440308,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.5514199733734131,
+              "value": 1.4500665664672852,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.8827877044677734,
+              "value": 3.3497700691223145,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.366969347000122,
+              "value": 2.2182188034057617,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.1800408363342285,
+              "value": -0.5105500221252441,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.1638180017471313,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.38911521434783936,
+              "value": -0.6777344346046448,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.0492641925811768,
+              "value": 0.7031552791595459,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.8691554665565491,
+              "value": 2.1306254863739014,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.649879515171051,
+              "value": 0.5776000022888184,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.5474080443382263,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.5028558969497681,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_staged_exfil",
+          "top_features": [
+            {
+              "feature": "upload_ratio",
+              "importance": 1.6818082332611084,
+              "value": -0.6777344346046448,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.3418864011764526,
+              "value": -0.5074617862701416,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 1.180226445198059,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.1489028930664062,
+              "value": 0.6679616570472717,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 0.9420338869094849,
+              "value": -0.5661737322807312,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 3.867784023284912,
+              "value": 2.8978772163391113,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.2461758852005005,
+              "value": 1.9081673622131348,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.2331771850585938,
+              "value": -0.561309278011322,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.076990008354187,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.5450483560562134,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "directional_entropy",
+              "importance": 1.2493828535079956,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.2236754894256592,
+              "value": 0.5199999809265137,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 1.0409862995147705,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_iat_max",
+              "importance": 1.0133657455444336,
+              "value": 0.23151157796382904,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.9445556402206421,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.390624761581421,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 1.1787469387054443,
+              "value": 0.5760586857795715,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.126821756362915,
+              "value": 0.597599983215332,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.7263462543487549,
+              "value": 1.2880644798278809,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.511406660079956,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "directional_entropy",
+              "importance": 0.8968695402145386,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_iat_max",
+              "importance": 0.6178208589553833,
+              "value": 0.22625507414340973,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.5953550338745117,
+              "value": 0.6679616570472717,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.5368273854255676,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.5253250002861023,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.369860887527466,
+              "value": 3.051485776901245,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.5049211978912354,
+              "value": -0.6179904937744141,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.4917652606964111,
+              "value": 1.5981158018112183,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.1366076469421387,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.5428194999694824,
+              "value": -0.6777344346046448,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_interactive_tunnel",
+          "top_features": [
+            {
+              "feature": "upload_ratio",
+              "importance": 1.4931308031082153,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.4144971370697021,
+              "value": 0.6144000291824341,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 0.8478989005088806,
+              "value": 0.5022023916244507,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.7693538069725037,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.6263572573661804,
+              "value": 0.3198903501033783,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_interactive_tunnel",
+          "top_features": [
+            {
+              "feature": "upload_ratio",
+              "importance": 2.3926992416381836,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 1.7581521272659302,
+              "value": 0.5206515192985535,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.606047511100769,
+              "value": 0.6007999777793884,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.031895637512207,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.8427839279174805,
+              "value": 0.2299330085515976,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.7499712705612183,
+              "value": 0.38536176085472107,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.6511234045028687,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.3762962818145752,
+              "value": 0.6047999858856201,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 0.8246000409126282,
+              "value": 0.405977338552475,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.7518322467803955,
+              "value": 0.9780130386352539,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.3763563632965088,
+              "value": 0.36356619000434875,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 1.3558406829833984,
+              "value": 0.6312000155448914,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.0772978067398071,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.5591632127761841,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 0.5362886786460876,
+              "value": 0.4663345217704773,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_size_max",
+              "importance": 1.1748642921447754,
+              "value": 0.6015999913215637,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.9687155485153198,
+              "value": 1.9081673622131348,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.7164238691329956,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.6671178340911865,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.5849378108978271,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.1113026142120361,
+              "value": 0.5678596496582031,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 1.0512199401855469,
+              "value": 2.119450807571411,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.7156912684440613,
+              "value": 0.623199999332428,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.6765555739402771,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.6272231340408325,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 3.396458864212036,
+              "value": 2.7764077186584473,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.8653545379638672,
+              "value": 1.9081673622131348,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.5226184129714966,
+              "value": -0.599378764629364,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.0593197345733643,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.8074503540992737,
+              "value": -0.6777344346046448,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_interactive_tunnel",
+          "top_features": [
+            {
+              "feature": "upload_ratio",
+              "importance": 1.9102152585983276,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 1.1876572370529175,
+              "value": 2.1658947467803955,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.889117419719696,
+              "value": 0.5080000162124634,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 0.8155823349952698,
+              "value": 1.4430903196334839,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_std",
+              "importance": 0.7892102599143982,
+              "value": 0.4349190890789032,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.7179522514343262,
+              "value": 1.262397050857544,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.949752151966095,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.53935307264328,
+              "value": 0.7603292465209961,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.4837339520454407,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.40400126576423645,
+              "value": 0.6335999965667725,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_cloud_shell",
+          "top_features": [
+            {
+              "feature": "all_size_max",
+              "importance": 1.560400128364563,
+              "value": 0.3935999870300293,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.1908859014511108,
+              "value": 1.7531415224075317,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.0148459672927856,
+              "value": -0.5074617862701416,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.6782436966896057,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.5770691633224487,
+              "value": 0.7782949805259705,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_iat_max",
+              "importance": 1.1412041187286377,
+              "value": 0.4035113453865051,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.9639306664466858,
+              "value": 0.5983999967575073,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.7642325162887573,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.5762373208999634,
+              "value": 0.3129827082157135,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "directional_entropy",
+              "importance": 0.5217869281768799,
+              "value": -0.3381323516368866,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.0158324241638184,
+              "value": 1.9618926048278809,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.6112127304077148,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.37602850794792175,
+              "value": 1.7552157640457153,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 0.31594550609588623,
+              "value": -0.6471771001815796,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.2900888919830322,
+              "value": 0.5897623896598816,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.764482259750366,
+              "value": 2.298830986022949,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.730919361114502,
+              "value": 1.9081673622131348,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.5540577173233032,
+              "value": -0.6194709539413452,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.046897053718567,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_bwd",
+              "importance": 0.6558727622032166,
+              "value": -0.3616894483566284,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 2.172999382019043,
+              "value": 1.9618926048278809,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.7659395337104797,
+              "value": 2.203378915786743,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.6861025094985962,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "directional_persistence",
+              "importance": 0.6538873314857483,
+              "value": 1.6892192363739014,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.6367778182029724,
+              "value": 0.9329079389572144,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.3301244974136353,
+              "value": 1.4500665664672852,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.6796720623970032,
+              "value": 0.8013591170310974,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.6139270663261414,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.6122288703918457,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.5670517683029175,
+              "value": 0.623199999332428,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_sync",
+          "top_features": [
+            {
+              "feature": "all_size_max",
+              "importance": 1.5291646718978882,
+              "value": 0.5720000267028809,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_iat_max",
+              "importance": 1.3338934183120728,
+              "value": 0.38547074794769287,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.1643528938293457,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.5544716715812683,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "burst_score",
+              "importance": 0.505448579788208,
+              "value": 0.3227522671222687,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 3.087465524673462,
+              "value": 2.729125499725342,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.535894751548767,
+              "value": -0.6196824908256531,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.4846813678741455,
+              "value": 1.5981158018112183,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.2314071655273438,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_bwd",
+              "importance": 0.6807809472084045,
+              "value": -0.4222968816757202,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.700343132019043,
+              "value": 3.041571855545044,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.4751896858215332,
+              "value": 1.4430903196334839,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.2075386047363281,
+              "value": -0.6074156761169434,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 0.9612559080123901,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "markov_fwd_fwd",
+              "importance": 0.7855944633483887,
+              "value": 0.5197955965995789,
+              "direction": "\u2193"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_real",
+          "top_features": [
+            {
+              "feature": "interaction_density",
+              "importance": 1.1764742136001587,
+              "value": 1.0804144144058228,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.7582006454467773,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.5795590877532959,
+              "value": -0.6777344346046448,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_consistency",
+              "importance": 0.485939621925354,
+              "value": 2.3979644775390625,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "beacon_periodicity",
+              "importance": 0.37519371509552,
+              "value": 0.45868679881095886,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "benign_discord_voice",
+          "top_features": [
+            {
+              "feature": "beacon_periodicity",
+              "importance": 1.0385035276412964,
+              "value": 0.701617419719696,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.8981422781944275,
+              "value": -0.9070957899093628,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "all_size_max",
+              "importance": 0.879284679889679,
+              "value": 0.6208000183105469,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "upload_ratio",
+              "importance": 0.37812212109565735,
+              "value": -0.6777344346046448,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "interaction_density",
+              "importance": 0.3691650927066803,
+              "value": 0.938240647315979,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.745595932006836,
+              "value": 2.6487925052642822,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 1.922160029411316,
+              "value": 2.2182188034057617,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.3437225818634033,
+              "value": -0.5175294280052185,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.3381555080413818,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.49891361594200134,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        },
+        {
+          "prediction": "malicious_c2_beacon",
+          "top_features": [
+            {
+              "feature": "upload_consistency",
+              "importance": 2.3546812534332275,
+              "value": 2.0828969478607178,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "size_modality",
+              "importance": 2.216127395629883,
+              "value": 1.9081673622131348,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "all_size_q75",
+              "importance": 1.409462571144104,
+              "value": -0.6107996106147766,
+              "direction": "\u2193"
+            },
+            {
+              "feature": "alt_burst_score",
+              "importance": 1.1040757894515991,
+              "value": -0.5074617862701416,
+              "direction": "\u2191"
+            },
+            {
+              "feature": "req_resp_cadence",
+              "importance": 0.6959623694419861,
+              "value": -0.9070957899093628,
+              "direction": "\u2191"
+            }
+          ],
+          "label": "malicious"
+        }
+      ],
+      "top_global_features": [
+        {
+          "feature": "interaction_density",
+          "total_importance": 116.2937
+        },
+        {
+          "feature": "size_modality",
+          "total_importance": 67.4432
+        },
+        {
+          "feature": "upload_consistency",
+          "total_importance": 67.3785
+        },
+        {
+          "feature": "alt_burst_score",
+          "total_importance": 49.7237
+        },
+        {
+          "feature": "upload_ratio",
+          "total_importance": 45.4719
+        },
+        {
+          "feature": "req_resp_cadence",
+          "total_importance": 41.3498
+        },
+        {
+          "feature": "all_size_max",
+          "total_importance": 35.5289
+        },
+        {
+          "feature": "all_size_min",
+          "total_importance": 32.8059
+        },
+        {
+          "feature": "all_size_q75",
+          "total_importance": 26.163
+        },
+        {
+          "feature": "all_iat_max",
+          "total_importance": 18.2345
+        },
+        {
+          "feature": "markov_fwd_fwd",
+          "total_importance": 15.512
+        },
+        {
+          "feature": "directional_entropy",
+          "total_importance": 15.322
+        },
+        {
+          "feature": "markov_fwd_bwd",
+          "total_importance": 13.9073
+        },
+        {
+          "feature": "markov_bwd_bwd",
+          "total_importance": 13.7336
+        },
+        {
+          "feature": "markov_bwd_fwd",
+          "total_importance": 13.0021
+        }
+      ]
+    },
+    "vae": {
+      "benign_mean_error_by_feature": {
+        "duration": 0.008568,
+        "total_packets": 0.048241,
+        "total_bytes_fwd": 0.100897,
+        "pkts_per_sec": 0.040533,
+        "bytes_per_sec": 0.080285,
+        "all_size_mean": 0.043597,
+        "all_size_std": 0.034727,
+        "all_size_min": 1.033921,
+        "all_size_max": 0.076039,
+        "all_size_median": 0.034444,
+        "all_size_skew": 0.056718,
+        "all_size_kurtosis": 0.157601,
+        "all_size_q25": 0.048501,
+        "all_size_q75": 0.044417,
+        "all_iat_mean": 0.018448,
+        "all_iat_std": 0.021767,
+        "all_iat_min": 0.016148,
+        "all_iat_max": 0.031781,
+        "all_iat_skew": 0.008314,
+        "all_iat_kurtosis": 0.010343,
+        "timing_regularity": 0.006054,
+        "small_pkt_ratio": 0.083036,
+        "large_pkt_ratio": 0.053666,
+        "size_entropy": 0.255379,
+        "markov_fwd_fwd": 0.067402,
+        "markov_fwd_bwd": 0.20011,
+        "markov_bwd_fwd": 0.143368,
+        "markov_bwd_bwd": 0.345035,
+        "iat_cv": 0.006556,
+        "size_iat_ratio": 0.059809,
+        "burst_score": 0.00402,
+        "direction_proxy": 0.04428,
+        "up_down_ratio": 0.12266,
+        "directional_entropy": 0.125379,
+        "req_resp_cadence": 0.621486,
+        "alt_burst_score": 0.170424,
+        "fwd_bytes_per_sec": 0.03442,
+        "bwd_bytes_per_sec": 0.068811,
+        "upload_ratio": 0.346684,
+        "session_asymmetry": 0.148099,
+        "upload_consistency": 3.312875,
+        "beacon_periodicity": 0.051822,
+        "temporal_volatility": 0.045156,
+        "burst_acceleration": 0.059789,
+        "interaction_density": 2.976344,
+        "directional_persistence": 0.386178,
+        "silence_ratio": 0.511057,
+        "size_modality": 6.423436,
+        "response_latency_cv": 0.019434,
+        "iat_trend": 0.054686,
+        "size_trend": 0.056121
+      },
+      "malicious_mean_error_by_feature": {
+        "duration": 0.109842,
+        "total_packets": 0.032309,
+        "total_bytes_fwd": 0.026176,
+        "pkts_per_sec": 0.027064,
+        "bytes_per_sec": 0.022,
+        "all_size_mean": 0.066961,
+        "all_size_std": 0.230905,
+        "all_size_min": 0.092093,
+        "all_size_max": 0.47921,
+        "all_size_median": 0.123704,
+        "all_size_skew": 0.178065,
+        "all_size_kurtosis": 0.075502,
+        "all_size_q25": 0.094333,
+        "all_size_q75": 0.191099,
+        "all_iat_mean": 0.099725,
+        "all_iat_std": 0.078779,
+        "all_iat_min": 0.02613,
+        "all_iat_max": 0.120855,
+        "all_iat_skew": 0.014331,
+        "all_iat_kurtosis": 0.004163,
+        "timing_regularity": 0.01307,
+        "small_pkt_ratio": 0.030312,
+        "large_pkt_ratio": 0.062775,
+        "size_entropy": 0.305184,
+        "markov_fwd_fwd": 0.196733,
+        "markov_fwd_bwd": 0.108282,
+        "markov_bwd_fwd": 0.193072,
+        "markov_bwd_bwd": 0.109821,
+        "iat_cv": 0.012669,
+        "size_iat_ratio": 0.032001,
+        "burst_score": 0.033934,
+        "direction_proxy": 0.107995,
+        "up_down_ratio": 0.074115,
+        "directional_entropy": 0.1518,
+        "req_resp_cadence": 0.826204,
+        "alt_burst_score": 0.18424,
+        "fwd_bytes_per_sec": 0.019471,
+        "bwd_bytes_per_sec": 0.029699,
+        "upload_ratio": 0.305277,
+        "session_asymmetry": 0.086471,
+        "upload_consistency": 3.095613,
+        "beacon_periodicity": 0.087667,
+        "temporal_volatility": 0.03638,
+        "burst_acceleration": 0.06007,
+        "interaction_density": 0.784899,
+        "directional_persistence": 0.297355,
+        "silence_ratio": 0.031439,
+        "size_modality": 2.358078,
+        "response_latency_cv": 0.015155,
+        "iat_trend": 0.038657,
+        "size_trend": 0.045446
+      },
+      "top_discriminative_features": [
+        {
+          "feature": "duration",
+          "mal_ben_error_ratio": 12.82
+        },
+        {
+          "feature": "burst_score",
+          "mal_ben_error_ratio": 8.44
+        },
+        {
+          "feature": "all_size_std",
+          "mal_ben_error_ratio": 6.65
+        },
+        {
+          "feature": "all_size_max",
+          "mal_ben_error_ratio": 6.3
+        },
+        {
+          "feature": "all_iat_mean",
+          "mal_ben_error_ratio": 5.41
+        },
+        {
+          "feature": "all_size_q75",
+          "mal_ben_error_ratio": 4.3
+        },
+        {
+          "feature": "all_iat_max",
+          "mal_ben_error_ratio": 3.8
+        },
+        {
+          "feature": "all_iat_std",
+          "mal_ben_error_ratio": 3.62
+        },
+        {
+          "feature": "all_size_median",
+          "mal_ben_error_ratio": 3.59
+        },
+        {
+          "feature": "all_size_skew",
+          "mal_ben_error_ratio": 3.14
+        }
+      ]
+    },
+    "isolation_forest": {
+      "feature_importance": [
+        {
+          "feature": "markov_fwd_fwd",
+          "importance": 1.6857
+        },
+        {
+          "feature": "all_size_min",
+          "importance": 1.2659
+        },
+        {
+          "feature": "silence_ratio",
+          "importance": 0.8951
+        },
+        {
+          "feature": "beacon_periodicity",
+          "importance": 0.6811
+        },
+        {
+          "feature": "markov_bwd_bwd",
+          "importance": 0.6035
+        },
+        {
+          "feature": "all_size_skew",
+          "importance": 0.5843
+        },
+        {
+          "feature": "direction_proxy",
+          "importance": 0.5651
+        },
+        {
+          "feature": "all_size_std",
+          "importance": 0.4251
+        },
+        {
+          "feature": "all_size_kurtosis",
+          "importance": 0.407
+        },
+        {
+          "feature": "size_modality",
+          "importance": 0.374
+        },
+        {
+          "feature": "all_size_median",
+          "importance": 0.3623
+        },
+        {
+          "feature": "all_iat_mean",
+          "importance": 0.3533
+        },
+        {
+          "feature": "markov_fwd_bwd",
+          "importance": 0.3455
+        },
+        {
+          "feature": "all_size_q75",
+          "importance": 0.3354
+        },
+        {
+          "feature": "duration",
+          "importance": 0.3098
+        },
+        {
+          "feature": "all_size_mean",
+          "importance": 0.2927
+        },
+        {
+          "feature": "all_size_q25",
+          "importance": 0.2613
+        },
+        {
+          "feature": "all_iat_max",
+          "importance": 0.2529
+        },
+        {
+          "feature": "response_latency_cv",
+          "importance": 0.2492
+        },
+        {
+          "feature": "size_entropy",
+          "importance": 0.2279
+        },
+        {
+          "feature": "all_iat_std",
+          "importance": 0.1796
+        },
+        {
+          "feature": "markov_bwd_fwd",
+          "importance": 0.179
+        },
+        {
+          "feature": "burst_score",
+          "importance": 0.1568
+        },
+        {
+          "feature": "size_iat_ratio",
+          "importance": 0.1556
+        },
+        {
+          "feature": "interaction_density",
+          "importance": 0.1547
+        },
+        {
+          "feature": "all_iat_min",
+          "importance": 0.1312
+        },
+        {
+          "feature": "burst_acceleration",
+          "importance": 0.1171
+        },
+        {
+          "feature": "pkts_per_sec",
+          "importance": 0.1127
+        },
+        {
+          "feature": "all_iat_skew",
+          "importance": 0.1089
+        },
+        {
+          "feature": "iat_cv",
+          "importance": 0.0922
+        },
+        {
+          "feature": "total_packets",
+          "importance": 0.0915
+        },
+        {
+          "feature": "session_asymmetry",
+          "importance": 0.0792
+        },
+        {
+          "feature": "large_pkt_ratio",
+          "importance": 0.0668
+        },
+        {
+          "feature": "size_trend",
+          "importance": 0.0629
+        },
+        {
+          "feature": "small_pkt_ratio",
+          "importance": 0.0582
+        },
+        {
+          "feature": "upload_consistency",
+          "importance": 0.0452
+        },
+        {
+          "feature": "timing_regularity",
+          "importance": 0.0445
+        },
+        {
+          "feature": "bytes_per_sec",
+          "importance": 0.036
+        },
+        {
+          "feature": "all_iat_kurtosis",
+          "importance": 0.0253
+        },
+        {
+          "feature": "all_size_max",
+          "importance": 0.0207
+        },
+        {
+          "feature": "directional_persistence",
+          "importance": 0.0206
+        },
+        {
+          "feature": "total_bytes_fwd",
+          "importance": 0.0187
+        },
+        {
+          "feature": "temporal_volatility",
+          "importance": 0.0149
+        },
+        {
+          "feature": "iat_trend",
+          "importance": 0.0116
+        },
+        {
+          "feature": "up_down_ratio",
+          "importance": 0.0
+        },
+        {
+          "feature": "directional_entropy",
+          "importance": 0.0
+        },
+        {
+          "feature": "req_resp_cadence",
+          "importance": 0.0
+        },
+        {
+          "feature": "alt_burst_score",
+          "importance": 0.0
+        },
+        {
+          "feature": "fwd_bytes_per_sec",
+          "importance": 0.0
+        },
+        {
+          "feature": "bwd_bytes_per_sec",
+          "importance": 0.0
+        },
+        {
+          "feature": "upload_ratio",
+          "importance": 0.0
+        }
+      ]
+    }
+  }
+}
